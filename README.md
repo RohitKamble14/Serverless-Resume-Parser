@@ -6,8 +6,8 @@ A serverless resume parser built using AWS services. When a resume PDF is upload
 
 ## 📐 Architecture Diagram
 
+![Serverless Resume Parser drawio (1)](https://github.com/user-attachments/assets/ffc2623d-17a3-4141-95bf-7b5e655c789b)
 
-[Serverless Resume Parser drawio (1)](https://github.com/user-attachments/assets/6a1c5133-c5e0-459e-9904-e66d0fe72a82)
 
 
 ---
