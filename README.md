@@ -20,10 +20,18 @@ A serverless resume parser built using AWS services. When a resume PDF is upload
 - **Boto3** – AWS SDK for Python
 
 ---
-## How It Works
 
-- **1.Resume is uploaded to S3 bucket (resume-parser-uploads-rohit).**
-- **2.S3 triggers Lambda function on upload event.**
-- **3.Lambda: Downloads the PDF.**
-  `Uses PyMuPDF to extract name, email, and phone.
-  `Saves data into DynamoDB (ResumeData table).
+## 🚀 How It Works
+
+1. A PDF resume is uploaded to an **S3 bucket**.
+2. The upload triggers a **Lambda function**.
+3. Lambda:
+   - Downloads the PDF.
+   - Extracts candidate info using `PyMuPDF`.
+   - Stores the data in a **DynamoDB** table.
+4. Logs are visible in **CloudWatch**.
+
+---
+
+
+   
