@@ -10,17 +10,6 @@ A serverless resume parser built using AWS services. When a resume PDF is upload
 
 ---
 
-## ✨ Features
-
-- ✅ Upload resumes (PDF) to S3
-- ⚡ Lambda function automatically triggered
-- 🧠 Extracts Name, Email, and Phone
-- 🗃️ Saves extracted data in DynamoDB
-- ☁️ Completely serverless and event-driven
-- 🪶 Lightweight & cost-effective (fits AWS free tier)
-
----
-
 ## 🧰 Tech Stack
 
 - **AWS Lambda** – For resume parsing logic
@@ -31,3 +20,6 @@ A serverless resume parser built using AWS services. When a resume PDF is upload
 - **Boto3** – AWS SDK for Python
 
 ---
+## How It Works
+
+- **1.Resume is uploaded to S3 bucket (resume-parser-uploads-rohit).**
