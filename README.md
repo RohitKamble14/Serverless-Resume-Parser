@@ -23,3 +23,7 @@ A serverless resume parser built using AWS services. When a resume PDF is upload
 ## How It Works
 
 - **1.Resume is uploaded to S3 bucket (resume-parser-uploads-rohit).**
+- **2.S3 triggers Lambda function on upload event.**
+- **3.Lambda: Downloads the PDF.**
+  `Uses PyMuPDF to extract name, email, and phone.
+  `Saves data into DynamoDB (ResumeData table).
